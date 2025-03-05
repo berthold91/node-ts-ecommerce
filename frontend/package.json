@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "live-server src --verbose",
+    "sass": "sass --watch src/assets/scss/style.scss:src/assets/css/style.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -14,5 +15,8 @@
     "@types/node": "^22.13.9",
     "live-server": "^1.2.2",
     "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3"
   }
 }
